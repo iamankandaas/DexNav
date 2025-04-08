@@ -46,16 +46,22 @@ DexNav is a Python-based **gesture-controlled navigation assistant** that lets y
    python main.py
 3. 🔵 Use a blue-colored object to control the mouse pointer via webcam.
 
-## Packaging
-  ```bash
-  pyinstaller --noconfirm --onefile --windowed main.py
+
+---
 
 ## 🧠 Future Enhancements
 
 - 🖐️ Finger gesture detection for click/scroll  
 - ✴️ On-screen overlay status bar  
 - 🎯 Calibration tool for custom color tracking  
-- 🔁 Auto-update mechanism  
+- 🔁 Auto-update mechanism
+
+
+---
+
+## Packaging
+```bash
+pyinstaller --noconfirm --onefile --windowed main.py
 
 ---
 
